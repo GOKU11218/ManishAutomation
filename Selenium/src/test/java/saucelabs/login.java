@@ -14,6 +14,7 @@ public class login {
     	 driver.findElement(By.id("user-name")).sendKeys("error_user");
     	 driver.findElement(By.id("password")).sendKeys("secret_sauce");
     	 driver.findElement(By.id("login-button")).click();
+    	 driver.findElement(By.xpath("ks")).click();
     	 
     	 
      }
